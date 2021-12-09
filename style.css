@@ -55,7 +55,7 @@ img {
     color: #E5E7EB;
 }
 
-.header-container, .info-container, .quote-container, .signup-container {
+.header-container, .info-container, .quote-container, .signup-container, .footer-container {
     width: 85%;
     margin: 0 auto;
 }
@@ -169,4 +169,9 @@ img {
     padding: 5px 20px;
     color: #E5E7EB;
     font-weight: 600;
+}
+
+.footer-container p {
+    text-align: center;
+    margin: 25px 0;
 }
