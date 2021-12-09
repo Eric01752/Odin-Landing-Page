@@ -55,7 +55,7 @@ img {
     color: #E5E7EB;
 }
 
-.header-container, .info-container {
+.header-container, .info-container, .quote-container {
     width: 85%;
     margin: 0 auto;
 }
@@ -127,3 +127,19 @@ img {
     width: 150px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-spacer {
+    margin: 100px 10px;
+}
+
+.quote-container p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    display: flex;
+    justify-content: right;
+}
