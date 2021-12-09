@@ -55,7 +55,7 @@ img {
     color: #E5E7EB;
 }
 
-.header-container, .info-container, .quote-container {
+.header-container, .info-container, .quote-container, .signup-container {
     width: 85%;
     margin: 0 auto;
 }
@@ -142,4 +142,31 @@ img {
     color: #1F2937;
     display: flex;
     justify-content: right;
+}
+
+.signup-1 {
+    background-color: #3882F6;
+    margin: 100px 10px;
+    border-radius: 6px;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-1-1 p {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.signup-1-1 h3 {
+    color: #E5E7EB;
+}
+
+.signup-1-2 p {
+    border: 2px solid #E5E7EB;
+    border-radius: 6px;
+    padding: 5px 20px;
+    color: #E5E7EB;
+    font-weight: 600;
 }
